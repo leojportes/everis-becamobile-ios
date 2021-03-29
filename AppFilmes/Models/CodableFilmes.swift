@@ -21,15 +21,16 @@ struct Welcome: Codable {
 }
 
 struct Filmes: Codable {
-    let originalTitle: String?
     let posterPath: String?
+    let originalTitle: String?
     let overview: String?
+    let vote_average: Double?
     
     
     enum CodingKeys: String, CodingKey {
-        case originalTitle = "original_title"
         case posterPath = "poster_path"
+        case originalTitle = "original_title"
         case overview
-        
+        case vote_average
     }
 }

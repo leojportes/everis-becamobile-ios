@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		756706D572988CC4BAF66A24 /* Pods_AppFilmes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DD46C504B9F53B912A7259 /* Pods_AppFilmes.framework */; };
+		C138CC97261228ED00D16F68 /* ChamadaApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C138CC96261228ED00D16F68 /* ChamadaApiViewController.swift */; };
+		C138CC992612318500D16F68 /* PostersTendenciasTela1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C138CC982612318500D16F68 /* PostersTendenciasTela1CollectionViewCell.swift */; };
 		C1994B9226121335000B2F88 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1994B9126121335000B2F88 /* Movies.swift */; };
 		C1D509AE26101E3E00CB6943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D509AD26101E3E00CB6943 /* AppDelegate.swift */; };
 		C1D509B026101E3E00CB6943 /* TelaTendenciasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D509AF26101E3E00CB6943 /* TelaTendenciasViewController.swift */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		26C91123E2454FAEE0A41D26 /* Pods-AppFilmes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFilmes.release.xcconfig"; path = "Target Support Files/Pods-AppFilmes/Pods-AppFilmes.release.xcconfig"; sourceTree = "<group>"; };
 		96DD46C504B9F53B912A7259 /* Pods_AppFilmes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppFilmes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C138CC96261228ED00D16F68 /* ChamadaApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamadaApiViewController.swift; sourceTree = "<group>"; };
+		C138CC982612318500D16F68 /* PostersTendenciasTela1CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostersTendenciasTela1CollectionViewCell.swift; sourceTree = "<group>"; };
 		C1994B9126121335000B2F88 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		C1D509AA26101E3E00CB6943 /* AppFilmes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFilmes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D509AD26101E3E00CB6943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				C1D509B126101E3E00CB6943 /* Main.storyboard */,
+				C138CC982612318500D16F68 /* PostersTendenciasTela1CollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 			children = (
 				C1FFF1A426102419003219D6 /* CodableFilmes.swift */,
 				C1994B9126121335000B2F88 /* Movies.swift */,
+				C138CC96261228ED00D16F68 /* ChamadaApiViewController.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -358,6 +364,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1994B9226121335000B2F88 /* Movies.swift in Sources */,
+				C138CC97261228ED00D16F68 /* ChamadaApiViewController.swift in Sources */,
+				C138CC992612318500D16F68 /* PostersTendenciasTela1CollectionViewCell.swift in Sources */,
 				C1FFF1A526102419003219D6 /* CodableFilmes.swift in Sources */,
 				C1D509B026101E3E00CB6943 /* TelaTendenciasViewController.swift in Sources */,
 				C1D509B626101E3E00CB6943 /* AppFilmes.xcdatamodeld in Sources */,

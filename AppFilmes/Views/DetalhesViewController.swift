@@ -36,8 +36,6 @@ class DetalhesViewController: UIViewController {
             self.overviewTextView.text = filme.overview
             self.ratingLabel.text = String (filme.voteAverage)
             
-            
-            
         }
         
     }

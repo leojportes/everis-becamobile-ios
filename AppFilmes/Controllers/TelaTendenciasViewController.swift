@@ -13,8 +13,7 @@ class TelaTendenciasViewController: UIViewController, UICollectionViewDelegate, 
     
     let chamadaApi = ChamadaApi()
     var listaFilmes = [Filme]()
-   
-
+    
     @IBOutlet weak var PostersDosFilmes: UICollectionView!
     
     override func viewDidLoad() {
@@ -22,8 +21,6 @@ class TelaTendenciasViewController: UIViewController, UICollectionViewDelegate, 
             PostersDosFilmes.dataSource = self
             listaFilmes = chamadaApi.makeRequest()
             PostersDosFilmes.delegate = self
-        
-//            print(listaFilmes.count)
         }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -38,7 +35,6 @@ class TelaTendenciasViewController: UIViewController, UICollectionViewDelegate, 
         let imageUrl = URL(string: "https://image.tmdb.org/t/p/w200/\(imagePosterUrl)")
         celulaPosters.PosterFilme.af_setImage(withURL: imageUrl!)
         return celulaPosters
-        
     }
   
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -51,7 +47,3 @@ class TelaTendenciasViewController: UIViewController, UICollectionViewDelegate, 
     }
     
 }
-
-
-
-

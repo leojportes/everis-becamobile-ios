@@ -1,3 +1,29 @@
+# Nota do Avaliado
+
+Aplicativo realizado com base no Device Iphone X. 
+Realizei o Request da API para a tela de Catálago dos Posters, utilizando o protocolo Codable.
+Realizei o Request dos poster na tela de detalhes utilizando o AlamofireImage. 
+Continuarei implementando as pendências, e melhorias. 
+
+
+# Pendências
+Requisição da API específica na tela de detalhes, onde a mesma, utilizei a mesma API da tela de Catálago dos Posters.
+Testes. 
+
+
+# Esclarecimentos/Dificuldades
+
+Ao iniciar a avaliação, tive bastante dificuldade para iniciar a parte de requisição da API, onde realizei o projeto por diversas vezes.
+Quando obtive o retorno da API no console do Xcode, iniciei os commits aqui no GitHub.
+Dificuldade na parte de lógica de Programação Orientada a Protocolos.
+
+Avaliação agregou muito para o meu aprendizado. 
+
+
+
+
+
+
 # Avaliação Beca Mobile iOS
 
 Criar um aplicativo que realize a listagem de filmes e exibição dos detalhes:
@@ -46,3 +72,4 @@ Criar um aplicativo que realize a listagem de filmes e exibição dos detalhes:
     - ssh-add -K ~/.ssh/id_rsa
 
 * :clap: Parabéns por ter chegado até aqui! :smile: _Um grande abraço e bem vindo ao time Mobile iOS_ :iphone: :punch:
+

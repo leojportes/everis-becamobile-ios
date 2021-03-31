@@ -11,6 +11,9 @@ import AlamofireImage
 
 class DetalhesViewController: UIViewController {
     
+    
+
+    
     @IBOutlet weak var imagemDetalhes: UIImageView!
     
     @IBOutlet weak var tituloLabel: UILabel!
@@ -30,7 +33,6 @@ class DetalhesViewController: UIViewController {
             let urlDaImagem = String(filme.posterPath)
             let imagem = URL(string: "https://image.tmdb.org/t/p/w200/\(urlDaImagem)")
             self.imagemDetalhes.af_setImage(withURL: imagem!)
-            
             self.tituloLabel.text = filme.title
             self.overviewTextView.text = filme.overview
             self.ratingLabel.text = String (filme.voteAverage)

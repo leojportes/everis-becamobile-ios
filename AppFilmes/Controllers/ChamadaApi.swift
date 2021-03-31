@@ -6,7 +6,6 @@
 //  Copyright © 2021 everis. All rights reserved.
 //
 
-import Alamofire
 import AlamofireImage
 import Foundation
 
@@ -18,20 +17,16 @@ class ChamadaApi {
     }
     
     func makeRequest() -> [Filme] {
-        
         if let url = URL(string: url)  {
         if let data = try? Data(contentsOf: url) {
             var filmes: [Filme] = []
             let decoder = JSONDecoder()
             if let filmesJson = try? decoder.decode(Filmes.self, from: data) {
                 filmes = filmesJson.results
-                print("Success Request!")
-                
                 return filmes
             }
         }
     }
-    print("Error Request!")
     return []
         
     }

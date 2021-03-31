@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Alamofire
 import AlamofireImage
 
 class TelaTendenciasViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
@@ -38,7 +37,6 @@ class TelaTendenciasViewController: UIViewController, UICollectionViewDelegate, 
         let imagePosterUrl = listaFilmes[indexPath.row].posterPath
         let imageUrl = URL(string: "https://image.tmdb.org/t/p/w200/\(imagePosterUrl)")
         celulaPosters.PosterFilme.af_setImage(withURL: imageUrl!)
-
         return celulaPosters
         
     }
@@ -50,14 +48,10 @@ class TelaTendenciasViewController: UIViewController, UICollectionViewDelegate, 
         controller.cellFilme = filmes
         
         self.present(controller, animated: true, completion: nil)
-
     }
-    
-    
     
 }
 
-    // Tela 2 Detalhes
 
 
 

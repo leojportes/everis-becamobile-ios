@@ -47,7 +47,7 @@ class TelaTendenciasViewController: UIViewController, UICollectionViewDelegate, 
         let filmes = listaFilmes[indexPath.item]
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "teladetalhes") as! DetalhesViewController
-//        controller.cellFilme = filmes
+        controller.cellFilme = filmes
         
         self.present(controller, animated: true, completion: nil)
 

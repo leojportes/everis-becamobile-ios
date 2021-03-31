@@ -20,12 +20,16 @@ class DetalhesViewController: UIViewController {
     @IBOutlet weak var ratingLabel: UILabel!
     
     
-    let cellFilme:Filme? = nil
+    var cellFilme:Filme? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if let filme = cellFilme{
+            
+            let urlDaImagem = String(filme.posterPath)
+            let imagem = URL(string: "https://image.tmdb.org/t/p/w200/\(urlDaImagem)")
+            self.imagemDetalhes.af_setImage(withURL: imagem!)
             
             self.tituloLabel.text = filme.title
             self.overviewTextView.text = filme.overview

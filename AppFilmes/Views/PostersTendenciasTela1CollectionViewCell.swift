@@ -14,18 +14,4 @@ class PostersTendenciasTela1CollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var PosterFilme: UIImageView!
     
-    
-    
-//    @IBOutlet weak var tituloLabel: UILabel!
-    
-    
-    
-//
-//    func setup(_ movie:Movies) {
-//        guard let imageUrl = URL(string: movie.posterPath) else { return }
-//        PosterFilme.af_setImage(withURL: imageUrl)
-//
-//    }
 }
-
-

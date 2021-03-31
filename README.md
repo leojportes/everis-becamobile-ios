@@ -2,7 +2,7 @@
 # Overview Interface
 
 <p align="center">
-    <img width="600" height="1029" src="everis-becamobile-ios/blob/develop/Assets.xcassets/to_readme/ezgif.com-video-to-gif.gif">
+    <img width="600" height="1029" src="src/Assets.xcassets/to_readme/ezgif.com-video-to-gif.gif">
 </p>
 
 

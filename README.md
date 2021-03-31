@@ -19,11 +19,6 @@ Dificuldade na parte de lógica de Programação Orientada a Protocolos.
 
 Avaliação agregou muito para o meu aprendizado. 
 
-# Overview Interface
-
-<p align="center">
-    <img widht="460"height="300" src="everis-becamobile-ios/Assets.xcassets/to_readme/ezgif.com-video-to-gif.gif">
-</p>
 
 
 

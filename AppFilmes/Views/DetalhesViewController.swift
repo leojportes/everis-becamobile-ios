@@ -11,8 +11,7 @@ import AlamofireImage
 
 class DetalhesViewController: UIViewController {
     
-    
-
+//    https://api.themoviedb.org/3/movie/791373?api_key=c88a5237fdc6ce4594df4af2f1750c7a&language=en-US
     
     @IBOutlet weak var imagemDetalhes: UIImageView!
     

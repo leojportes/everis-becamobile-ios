@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,39 +15,29 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trending Movies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RD-xY-JSA">
-                                <rect key="frame" x="91" y="151" width="192" height="34"/>
-                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="26"/>
-                                <color key="textColor" red="0.50844701780000001" green="0.092032259909999997" blue="0.084631365190000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popcorn" translatesAutoresizingMaskIntoConstraints="NO" id="0p4-GQ-gXw">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cinema_popcorn_icon-icons.com_66128" translatesAutoresizingMaskIntoConstraints="NO" id="ZC4-Iy-RhV">
+                                <rect key="frame" x="155" y="386" width="104" height="145"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5RD-xY-JSA" secondAttribute="trailing" constant="92" id="0JG-Xi-Yf6"/>
-                            <constraint firstItem="0p4-GQ-gXw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="2n8-9p-IXd"/>
-                            <constraint firstItem="0p4-GQ-gXw" firstAttribute="top" secondItem="5RD-xY-JSA" secondAttribute="bottom" constant="84" id="6fq-AM-tik"/>
-                            <constraint firstItem="5RD-xY-JSA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="H2E-Ue-jSC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0p4-GQ-gXw" secondAttribute="trailing" constant="68" id="aD9-IP-RDu"/>
-                            <constraint firstItem="5RD-xY-JSA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="131" id="ciu-Ds-1en"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5RD-xY-JSA" secondAttribute="bottom" constant="482" id="d0M-2j-oGX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0p4-GQ-gXw" secondAttribute="bottom" constant="270" id="dMy-nu-hcO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZC4-Iy-RhV" secondAttribute="bottom" constant="331" id="JiA-c5-Wc4"/>
+                            <constraint firstItem="ZC4-Iy-RhV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="nqh-B4-arI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZC4-Iy-RhV" secondAttribute="trailing" constant="155" id="qNV-V9-CCx"/>
+                            <constraint firstItem="ZC4-Iy-RhV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="342" id="up0-v0-ksm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="50.724637681159422" y="374.33035714285711"/>
         </scene>
     </scenes>
     <resources>
-        <image name="popcorn" width="716" height="469"/>
+        <image name="cinema_popcorn_icon-icons.com_66128" width="192" height="192"/>
     </resources>
 </document>

@@ -20,6 +20,7 @@
 		C1D509BB26101E4000CB6943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D509B926101E4000CB6943 /* LaunchScreen.storyboard */; };
 		C1D509C626101E4000CB6943 /* AppFilmesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D509C526101E4000CB6943 /* AppFilmesTests.swift */; };
 		C1D509D126101E4000CB6943 /* AppFilmesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D509D026101E4000CB6943 /* AppFilmesUITests.swift */; };
+		C1ED99452613B62800C498D8 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED99442613B62800C498D8 /* DetalhesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		C1D509CC26101E4000CB6943 /* AppFilmesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppFilmesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D509D026101E4000CB6943 /* AppFilmesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFilmesUITests.swift; sourceTree = "<group>"; };
 		C1D509D226101E4000CB6943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1ED99442613B62800C498D8 /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 		E634912B8B2B0D7E44C55D19 /* Pods-AppFilmes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFilmes.debug.xcconfig"; path = "Target Support Files/Pods-AppFilmes/Pods-AppFilmes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 			children = (
 				C138CC982612318500D16F68 /* PostersTendenciasTela1CollectionViewCell.swift */,
 				C1D509B126101E3E00CB6943 /* Main.storyboard */,
+				C1ED99442613B62800C498D8 /* DetalhesViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1ED99452613B62800C498D8 /* DetalhesViewController.swift in Sources */,
 				C1994B9226121335000B2F88 /* Filme.swift in Sources */,
 				C138CC97261228ED00D16F68 /* ChamadaApi.swift in Sources */,
 				C1B7A31326129B870082397A /* Filmes.swift in Sources */,

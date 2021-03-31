@@ -12,7 +12,7 @@ import Foundation
 
 class ChamadaApi {
 
-    let apiRequest = "https://api.themoviedb.org/3/trending/movie/day?api_key=c88a5237fdc6ce4594df4af2f1750c7a"
+    let apiRequest = "https://api.themoviedb.org/3/trending/movie/day?api_key=c88a5237fdc6ce4594df4af2f1750c7a&language=pt-BR"
     var url: String {
     return apiRequest
     }
